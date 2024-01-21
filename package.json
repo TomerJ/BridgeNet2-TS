@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/ffrostflame/BridgeNet2.git"
   },
+  "scripts": {
+    "build": "rojo build -o model.rbxmx"
+  },
   "keywords": [
     "network",
     "roblox",
@@ -20,6 +23,8 @@
   },
   "homepage": "https://github.com/ffrostflame/BridgeNet2#readme",
   "dependencies": {
+    "@rbxts/compiler-types": "^2.2.0-types.0",
+    "@rbxts/types": "^1.0.744",
     "child_process": "^1.0.2",
     "fs": "^0.0.1-security",
     "fs-extra": "^11.1.0",
@@ -28,7 +33,8 @@
     "moonwave": "^1.1.1",
     "octokit": "^2.0.19",
     "path": "^0.12.7",
-    "rimraf": "^5.0.1"
+    "rimraf": "^5.0.1",
+    "roblox-ts": "^2.2.0"
   },
   "devDependencies": {
     "eslint": "^8.42.0"
